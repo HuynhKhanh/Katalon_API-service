@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invalid_Client_ID _With_Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5306c06a-7ca5-43f4-ac3d-148b94aed244</testCaseGuid>
+   <variable>
+      <defaultValue>'client_credentials'</defaultValue>
+      <description></description>
+      <id>0ac5b4ed-7487-47e4-a056-739fc22db549</id>
+      <masked>false</masked>
+      <name>grantType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1387401b-6382-4baa-aa6b-c87f1ddcba2c</id>
+      <masked>false</masked>
+      <name>clientID</name>
+   </variable>
+   <variable>
+      <defaultValue>'wo-gIcYoQjn-dmGgRe_-pYIZTvgWsA_3tDUOqFLwJpIJdD-wHeDuiQrxrXQor3_X'</defaultValue>
+      <description></description>
+      <id>6b565a80-a2ff-40ba-b91e-0644a053e173</id>
+      <masked>false</masked>
+      <name>clientSecret</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://test-data-api.com'</defaultValue>
+      <description></description>
+      <id>9f4a4ff9-fd5c-464c-83e7-74c4a77996f5</id>
+      <masked>false</masked>
+      <name>audience</name>
+   </variable>
+</TestCaseEntity>

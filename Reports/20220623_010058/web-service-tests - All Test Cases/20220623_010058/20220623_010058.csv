@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+web-service-tests - All Test Cases,,,,2022-06-23 01:01:11,2022-06-23 01:01:15,4.526s,PASSED
+,,,,,,,
+Test Cases/Positve Case/Valid_param_with_othe_value,,,,2022-06-23 01:01:11,2022-06-23 01:01:14,2.920s,PASSED
+"postResponse = sendRequest(findTestObject(""POST Token"", [""grant_type"":grantType, ""client_id"":clientID, ""client_secret"":clientSecret, ""audience_url"":audience]))",,,,2022-06-23 01:01:12,2022-06-23 01:01:14,2.058s,PASSED
+getStatusCode()).isEqualTo(200),,Assert the status code,,2022-06-23 01:01:14,2022-06-23 01:01:14,0.166s,PASSED
+"verifyElementPropertyValue(postResponse, ""scope"", ""get:clients"")",,Assert the field scope,,2022-06-23 01:01:14,2022-06-23 01:01:14,0.115s,PASSED
+"verifyElementPropertyValue(postResponse, ""expires_in"", ""3600"")",,Assert the field expires in,,2022-06-23 01:01:14,2022-06-23 01:01:14,0.024s,PASSED
+"verifyElementPropertyValue(postResponse, ""token_type"", ""Bearer"")",,Assert the field token_type,,2022-06-23 01:01:14,2022-06-23 01:01:14,0.026s,PASSED
+parser = new groovy.json.JsonSlurper(),,Assert the field,,2022-06-23 01:01:14,2022-06-23 01:01:14,0.000s,PASSED
+afterParsing = parser.parseText(postResponse.getResponseBodyContent()),,,,2022-06-23 01:01:14,2022-06-23 01:01:14,0.002s,PASSED
+print(postResponse.getResponseBodyContent()),,,,2022-06-23 01:01:14,2022-06-23 01:01:14,0.004s,PASSED
+"verifyElementPropertyValue(postResponse, ""access_token"", access_token)",,,,2022-06-23 01:01:14,2022-06-23 01:01:14,0.025s,PASSED
+,,,,,,,
+Test Cases/Positve Case/Valid_param,,,,2022-06-23 01:01:14,2022-06-23 01:01:15,1.150s,PASSED
+"postResponse = sendRequest(findTestObject(""POST Token"", [""grant_type"":grantType, ""client_id"":clientID, ""client_secret"":clientSecret, ""audience_url"":audience]))",,,,2022-06-23 01:01:14,2022-06-23 01:01:15,0.774s,PASSED
+getStatusCode()).isEqualTo(200),,Assert the status code,,2022-06-23 01:01:15,2022-06-23 01:01:15,0.001s,PASSED
+"verifyElementPropertyValue(postResponse, ""scope"", ""get:invoices get:clients"")",,Assert the field scope,,2022-06-23 01:01:15,2022-06-23 01:01:15,0.032s,PASSED
+"verifyElementPropertyValue(postResponse, ""expires_in"", ""3600"")",,Assert the field expires in,,2022-06-23 01:01:15,2022-06-23 01:01:15,0.022s,PASSED
+"verifyElementPropertyValue(postResponse, ""token_type"", ""Bearer"")",,Assert the field token_type,,2022-06-23 01:01:15,2022-06-23 01:01:15,0.025s,PASSED
+parser = new groovy.json.JsonSlurper(),,Assert the field,,2022-06-23 01:01:15,2022-06-23 01:01:15,0.004s,PASSED
+afterParsing = parser.parseText(postResponse.getResponseBodyContent()),,,,2022-06-23 01:01:15,2022-06-23 01:01:15,0.000s,PASSED
+print(postResponse.getResponseBodyContent()),,,,2022-06-23 01:01:15,2022-06-23 01:01:15,0.001s,PASSED
+"verifyElementPropertyValue(postResponse, ""access_token"", access_token)",,,,2022-06-23 01:01:15,2022-06-23 01:01:15,0.028s,PASSED

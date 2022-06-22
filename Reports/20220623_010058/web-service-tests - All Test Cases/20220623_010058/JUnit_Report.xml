@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="web-service-tests - All Test Cases" time="4.526" tests="2" failures="0" errors="0">
+   <testsuite name="web-service-tests - All Test Cases" tests="2" failures="0" errors="0" time="4.526" skipped="0" timestamp="2022-06-23 01:01:11" hostname="minhkhanh.huynh - localhost" id="Test Suites/web-service-tests - All Test Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/minhkhanh.huynh/Katalon Studio/Ascendat_task/Reports/20220623_010058/web-service-tests - All Test Cases/20220623_010058"/>
+         <property name="logFiles" value="/Users/minhkhanh.huynh/Katalon Studio/Ascendat_task/Reports/20220623_010058/web-service-tests - All Test Cases/20220623_010058/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="minhkhanh.huynh - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Positve Case/Valid_param_with_othe_value" time="2.92" classname="Test Cases/Positve Case/Valid_param_with_othe_value" status="PASSED">
+         <system-out><![CDATA[2022-06-23 01:01:11 - [TEST_CASE][PASSED] - Test Cases/Positve Case/Valid_param_with_othe_value: Test Cases/Positve Case/Valid_param_with_othe_value
+
+2022-06-23 01:01:12 - [TEST_STEP][PASSED] - postResponse = sendRequest(findTestObject("POST Token", ["grant_type":grantType, "client_id":clientID, "client_secret":clientSecret, "audience_url":audience])): Send request successfully
+
+2022-06-23 01:01:14 - [MESSAGE][INFO] - HAR: /Users/minhkhanh.huynh/Katalon Studio/Ascendat_task/Reports/20220623_010058/web-service-tests - All Test Cases/20220623_010058/requests/main/0.har
+
+2022-06-23 01:01:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-23 01:01:14 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-06-23 01:01:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(postResponse, "scope", "get:clients"): Verify element property value successfully
+
+2022-06-23 01:01:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-06-23 01:01:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(postResponse, "expires_in", "3600"): Verify element property value successfully
+
+2022-06-23 01:01:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-06-23 01:01:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(postResponse, "token_type", "Bearer"): Verify element property value successfully
+
+2022-06-23 01:01:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-06-23 01:01:14 - [TEST_STEP][PASSED] - parser = new groovy.json.JsonSlurper(): null
+
+2022-06-23 01:01:14 - [TEST_STEP][PASSED] - afterParsing = parser.parseText(postResponse.getResponseBodyContent()): null
+
+2022-06-23 01:01:14 - [TEST_STEP][PASSED] - print(postResponse.getResponseBodyContent()): null
+
+2022-06-23 01:01:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(postResponse, "access_token", access_token): Verify element property value successfully
+
+2022-06-23 01:01:14 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positve Case/Valid_param" time="1.15" classname="Test Cases/Positve Case/Valid_param" status="PASSED">
+         <system-out><![CDATA[2022-06-23 01:01:14 - [TEST_CASE][PASSED] - Test Cases/Positve Case/Valid_param: Test Cases/Positve Case/Valid_param
+
+2022-06-23 01:01:14 - [TEST_STEP][PASSED] - postResponse = sendRequest(findTestObject("POST Token", ["grant_type":grantType, "client_id":clientID, "client_secret":clientSecret, "audience_url":audience])): Send request successfully
+
+2022-06-23 01:01:15 - [MESSAGE][INFO] - HAR: /Users/minhkhanh.huynh/Katalon Studio/Ascendat_task/Reports/20220623_010058/web-service-tests - All Test Cases/20220623_010058/requests/main/1.har
+
+2022-06-23 01:01:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-23 01:01:15 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-06-23 01:01:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(postResponse, "scope", "get:invoices get:clients"): Verify element property value successfully
+
+2022-06-23 01:01:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-06-23 01:01:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(postResponse, "expires_in", "3600"): Verify element property value successfully
+
+2022-06-23 01:01:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-06-23 01:01:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(postResponse, "token_type", "Bearer"): Verify element property value successfully
+
+2022-06-23 01:01:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-06-23 01:01:15 - [TEST_STEP][PASSED] - parser = new groovy.json.JsonSlurper(): null
+
+2022-06-23 01:01:15 - [TEST_STEP][PASSED] - afterParsing = parser.parseText(postResponse.getResponseBodyContent()): null
+
+2022-06-23 01:01:15 - [TEST_STEP][PASSED] - print(postResponse.getResponseBodyContent()): null
+
+2022-06-23 01:01:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(postResponse, "access_token", access_token): Verify element property value successfully
+
+2022-06-23 01:01:15 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-23 01:01:11 - [TEST_SUITE][PASSED] - web-service-tests - All Test Cases: Test Cases/Positve Case/Valid_param]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

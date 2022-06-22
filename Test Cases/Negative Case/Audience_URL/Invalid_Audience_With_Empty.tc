@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invalid_Audience_With_Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d7b4161-fddc-471e-bfe7-e5eda279f637</testCaseGuid>
+   <variable>
+      <defaultValue>'client_credentials'</defaultValue>
+      <description></description>
+      <id>66032052-d3ea-46da-9dee-475a40a5cbb7</id>
+      <masked>false</masked>
+      <name>grantType</name>
+   </variable>
+   <variable>
+      <defaultValue>'KRpatygJ3C5xvWxy4UuLkdm5qXMhCvc5'</defaultValue>
+      <description></description>
+      <id>e6055770-7d74-4867-98d1-53d5b6b949d9</id>
+      <masked>false</masked>
+      <name>clientID</name>
+   </variable>
+   <variable>
+      <defaultValue>'wo-gIcYoQjn-dmGgRe_-pYIZTvgWsA_3tDUOqFLwJpIJdD-wHeDuiQrxrXQor3_X'</defaultValue>
+      <description></description>
+      <id>5bff9a5c-0b9b-4494-87cc-a02d2bf613ee</id>
+      <masked>false</masked>
+      <name>clientSecret</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e5aa3b0-e78d-4203-b1b3-b7c9c30fdd97</id>
+      <masked>false</masked>
+      <name>audience</name>
+   </variable>
+</TestCaseEntity>

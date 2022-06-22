@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invalid_Audience_Without_s_InHTTP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a03354b-2b39-42b8-8dc8-a42d0be7b7f8</testCaseGuid>
+   <variable>
+      <defaultValue>'client_credentials'</defaultValue>
+      <description></description>
+      <id>7e29abea-bec8-4b5d-9747-4b31ca29c75a</id>
+      <masked>false</masked>
+      <name>grantType</name>
+   </variable>
+   <variable>
+      <defaultValue>'KRpatygJ3C5xvWxy4UuLkdm5qXMhCvc5'</defaultValue>
+      <description></description>
+      <id>59e0842f-36a6-4ca7-aaf8-c39485d8de00</id>
+      <masked>false</masked>
+      <name>clientID</name>
+   </variable>
+   <variable>
+      <defaultValue>'wo-gIcYoQjn-dmGgRe_-pYIZTvgWsA_3tDUOqFLwJpIJdD-wHeDuiQrxrXQor3_X'</defaultValue>
+      <description></description>
+      <id>d56cb1e3-0e10-476e-a1a4-d38e90918296</id>
+      <masked>false</masked>
+      <name>clientSecret</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://test-data-api.com.vn'</defaultValue>
+      <description></description>
+      <id>4a58948b-b52d-4943-95eb-cda25aeb480c</id>
+      <masked>false</masked>
+      <name>audience</name>
+   </variable>
+</TestCaseEntity>

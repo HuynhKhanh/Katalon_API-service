@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invalid_Grant_Type _With_Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eaf78eb0-1673-4743-874e-1800d3681ed5</testCaseGuid>
+   <variable>
+      <defaultValue>'Test_12'</defaultValue>
+      <description></description>
+      <id>65862e15-b0a1-4db3-bb4a-debeda250bee</id>
+      <masked>false</masked>
+      <name>grantType</name>
+   </variable>
+   <variable>
+      <defaultValue>'KRpatygJ3C5xvWxy4UuLkdm5qXMhCvc5'</defaultValue>
+      <description></description>
+      <id>a4c0ff03-be84-4bbc-9c31-f2490f66483d</id>
+      <masked>false</masked>
+      <name>clientID</name>
+   </variable>
+   <variable>
+      <defaultValue>'wo-gIcYoQjn-dmGgRe_-pYIZTvgWsA_3tDUOqFLwJpIJdD-wHeDuiQrxrXQor3_X'</defaultValue>
+      <description></description>
+      <id>f198e5bf-b5cf-43bf-b302-151e286abe77</id>
+      <masked>false</masked>
+      <name>clientSecret</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://test-data-api.com'</defaultValue>
+      <description></description>
+      <id>6655fe54-ca47-4058-9fbd-74b533b100dd</id>
+      <masked>false</masked>
+      <name>audience</name>
+   </variable>
+</TestCaseEntity>
